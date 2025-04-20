@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Patrick Ubaka - Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #4a90e2;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      flex-wrap: wrap;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      margin-bottom: 50px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #4a90e2;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #1f5ca5;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s ease;
+    }
+
+    section:hover {
+      transform: translateX(-5px);
+    }
+    h2 {
+      border-bottom: 2px solid #4a90e2;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+    }
+
+    section a {
+      text-decoration: none;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+    }
+
+    section a:hover {
+      color: darkblue;
+      text-decoration: underline;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .project {
+      margin-bottom: 1.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f1f1f1;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Patrick Ubaka</h1>
+    <p>Software Engineering Student | Front-End Web Developer | Aspiring Full-Stack Developer</p>
+  </header>
+
+  <nav>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+  </nav>
+
+  <section id="contact" class="contact">
+    <h2>Contact Information</h2>
+    <ul>
+      <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+      <li>Phone: <a href="tel:+2341234567890">+234 123 456 7890</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
+      <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+    </ul>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a dedicated first-year Software Engineering student at a Nigerian private university with a passion for
+      building software solutions. I enjoy learning new technologies and working on personal and academic projects
+      to improve my skills.
+    </p>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Programming Languages:</strong> Java, Python, JavaScript, C#</li>
+      <li><strong>Tools:</strong> IntelliJ IDEA, Figma, VS Code</li>
+      <li><strong>Frameworks/Libraries:</strong> JavaFX, React, Bootstrap, React Native</li>
+      <li><strong>Soft Skills:</strong> Team collaboration, Creative thinking, Adaptability, Communication</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Quiz Game (JavaFX)</h3>
+      <p>A quiz game built with Java and JavaFX featuring a GUI interface, question/answer logic, and scoring.</p>
+    </div>
+    <div class="project">
+      <h3>Emergency Alert Mobile App (Concept Design)</h3>
+      <p>Defined functional and non-functional requirements and created a mind map for a conceptual emergency
+        alert system.</p>
+    </div>
+    <div class="project">
+      <h3>Weather App</h3>
+      <p>A weather dashboard that fetches real-time weather data using an open API. Users can search by city to see temperature, humidity, and forecast.</p>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <p>Bachelor of Science in Software Engineering<br />
+      Veritas University Abuja, Nigeria<br />
+      2024 – Expected 2028</p>
+  </section>
+
+  <section id="certifications" class="certifications">
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li>Certified Front-End Developer – Coursera (2024)</li>
+      <li>Winner, Hackathon XYZ – Veritas University (2025)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Patrick Ubaka</p>
+  </footer>
+</body>
+
+  </html>
